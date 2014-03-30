@@ -1,0 +1,118 @@
+/* @override http://l/codecanyon/email_this/codes/style.css */
+
+/* @group Core Styles */
+
+* {
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #fff;
+	cursor: default;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 10px 0px 0;
+	padding: 0 0px 10px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.3em;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #ff9300;
+}
+
+a.clean, a.clean:hover {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+/* @end */
+
+.content {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+.blog_entries .head {
+	padding: 10px 20px;
+	background-color: #ccc;
+	margin-bottom: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.blog_entries .head .meta {
+	font-size: 0.7em;
+	color: #444;
+}
+
+.blog_entries .foot {
+	padding: 10px 0;
+	margin-top: 15px;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	font-size: 0.8em;
+}
+
+.blog_entries .foot .disabled {
+	color: silver;
+}
+
+.buttons {
+	margin-top: 30px;
+	font-size: 0.9em;
+	padding: 10px 15px;
+	border: 1px solid #ccc;
+	background-color: #efefef;
+}
+
+.article .meta {
+	margin-bottom: 20px;
+	font-size: 0.7em;
+	font-style: italic;
+	color: gray;
+}
+
+.article .note {
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: #fefc9f;
+	border: 1px solid #c0c000;
+}
+
